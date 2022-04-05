@@ -10,9 +10,18 @@ namespace Bankk
 {
     public partial class Form2 : Form
     {
-        public Form2()
+        string name, address, postalcode;
+        public Form2(string x, string y, string z)
         {
             InitializeComponent();
+            name = x;
+            address = y;
+            postalcode = z;
+        }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
