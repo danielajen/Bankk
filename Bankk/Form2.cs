@@ -11,6 +11,12 @@ namespace Bankk
     public partial class Form2 : Form
     {
         string name, address, postalcode;
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
         public Form2(string x, string y, string z)
         {
             InitializeComponent();
